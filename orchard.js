@@ -180,9 +180,31 @@ console.log(pinkTons)
 
 // CODE HERE
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+let fTotal = 0
+for (let i = 0; i < fujiTons.length; i++){
+    fTotal += (fujiTons[i] * 2000)
+}
+
+
+let gTotal = 0
+for (let i = 0; i < galaTons.length; i++){
+    gTotal += (galaTons[i]* 2000)
+}
+
+
+let pTotal = 0
+for (let i = 0; i < pinkTons.length; i++){
+    pTotal += (pinkTons[i] * 2000)
+}
+
+
+let fujiPounds = fTotal
+let galaPounds = gTotal
+let pinkPounds = pTotal
+
+console.log(`There are ${fujiPounds} lbs of fuji apples.`)
+console.log(`There are ${galaPounds} lbs of gala apples.`)
+console.log (`There are ${pinkPounds} lbs of pink apples.`)
 
 // PROBLEM 6
 
